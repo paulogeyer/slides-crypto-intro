@@ -40,13 +40,46 @@
 		</section>
 
 		<section class="slide">
+			<h2>Aplicações</h2>
+			<ul>
+				<li class="slide">Mensagens secretas</li>
+				<li class="slide">Assinaturas digitais</li>
+				<li class="slide">Sistema financeiro (Bitcoin)</li>
+				<li class="slide">Internet decentralizada (cjdns)</li>
+			</ul>
+		</section>
+		
+		<section class="slide">
 			<h2>Motivação</h2>
 			<ul>
 				<li class="slide">Black Chambers</li>
 				<li class="slide">NSA</li>
 			</ul>
 		</section>
-		
+
+		<section class="slide">
+			<h2>Conceito</h2>
+			<ul>
+				<li class="slide">Alice e Bob precisam passar uma mensagem sem que Eve possa descobrir o conteúdo caso consiga interceptar a mensagem</li>
+				<li class="slide">Alice e Bob precisam de uma chave comum</li>
+				<li class="slide">Alice codifica a mensagem usando a chave, e envia para Bob</li>
+				<li class="slide">Bob recebe a mensagem, e decodifica, pois possui a chave correta</li>
+				<li class="slide">Mesmo que Eve consiga interceptar a mensagem, não conseguirá ler, porque não tem a chave correta</li>
+			</ul>
+		</section>
+
+		<section class="slide">
+			<h2>Diagrama (chave simétrica)</h2>
+			<p>A mesma chave serve para codificar e decodificar</p>
+			<img src="diagrama.png" />
+			<span>Fonte da imagem: https://en.wikipedia.org/wiki/Cryptography</span>
+		</section>
+
+		<section class="slide">
+			<h2>Diagrama (chave assimétrica)</h2>
+			<p>Também conhecida como criptografia de chave pública</p>
+			<img src="public_key_shared_secret.svg" />
+		</section>
 		<section class="slide">
 			<h2>Substituição monoalfabetica</h2>
 			<ul>
@@ -77,6 +110,7 @@ zrafntrz fhcre frpergn
 				Primeira página do manuscrito de Al-Kindi, "Decifrando Mensagens Criptográficas"
 			</p>
 		</section>
+
 		<section class="slide">
 			<h2>Nunca use a cifra de substituição</h2>
 			<img src="mary.jpg" class="slide" />
